@@ -1,0 +1,41 @@
+
+--Use Australiaweather Table
+--1.Write a Query to display average rainfall and average Evaporation for each Location except records with Evaporation as NULL.  (Use Tables: AustraliaWeather). 
+
+--ANSWER:
+
+
+
+
+--2.Write a Query to display the Location,year and month wise average rainfall analysis.  (Use Tables: AustraliaWeather). 
+
+--ANSWER:
+
+
+--3.Write a Query to display the location wise average pressure and average temperature using the data collected at both the points of time(9am and 3pm). (Use Tables: AustraliaWeather). 
+
+--ANSWER:
+
+--4.Write a Query to display the maximum temperature recorded in the morning and afternoon for each location in each month.  (Use Tables: AustraliaWeather). 
+
+--ANSWER:
+
+--5.	The Meteorogical Department wants an analysis of the morning weather. Write a Query to display the  highest recorded Pressure in each location in every month, when the evaporation record is available and temperature range in the morning should range between 14 and 30 degrees. 
+--Filter the records where Maximum Humidity in the morning should not exceed 70. (Make appropriate date conversions if necessary).  (Use Tables: AustraliaWeather). 
+
+--ANSWER:
+
+
+
+--6.Using CTE display which Location has maximum average rainfall
+
+
+--7.Using CTE create a report of Location wise,number of days we have 
+'Very Humid','Humid','Not Humid' 
+if Humidity9am >50 then 'Very Humid'
+else Humidity9am between 30 and 50 then 'Humid'
+else 'Not Humid'
+
+--Answer 
+
+
