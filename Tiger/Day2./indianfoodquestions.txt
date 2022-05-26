@@ -1,0 +1,24 @@
+select * from indian_food;
+
+1.Display name,ingredients,maximum cooking  time course wise. 
+
+
+
+2.
+Write a query to display name,ingredients,course,maximum cooking time for 
+course ='dessert'
+
+
+3. Display name,ingredients,course,diet,maximum prep time course wise.
+
+
+4.
+Write a query to display name,ingredients,course,diet having Panner as ingredients
+
+
+5.Display name,ingredients,course,diet,state ,maximum cooking time state wise
+
+
+
+--6.Display all names,ingredients,diet,prep_time,cook_time,flavor_profile,course,state 
+--having name like 'halwa'
