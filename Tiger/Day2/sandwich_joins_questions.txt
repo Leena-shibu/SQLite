@@ -1,0 +1,67 @@
+CREATE TABLE `sandwich` (
+  `sid` varchar(10) primary key,
+  `name` varchar(30) DEFAULT NULL,
+  `filling` varchar(30) DEFAULT NULL,
+  `bread` varchar(30) DEFAULT NULL,
+  `price` int DEFAULT NULL) ;
+  
+insert into sandwich values('s1',	'san-chicken',	'chicken',	'White',	50);
+insert into sandwich values('s2',	'san-chicken',	'chicken',	'Brown',	55);
+insert into sandwich values('s3',	'san-veggie',	'mixed veg',	'Brown',	50);
+insert into sandwich values('s4',	'san-veggie',	'mixed veg',	'multi grain',	55);
+insert into sandwich values('s5',	'san-aloo tikki',	'potato',	'Rye',	25);
+insert into sandwich values('s6','san-mexican veg', 'veg  mayonnaise','White',45);
+insert into sandwich values('s7',	'san-mixed cheese',	'cheese veg',	'White',	60);
+
+select * from sandwich;
+CREATE TABLE `sandwichorder` (
+  `sid` varchar(10) references sandwich(sid),
+  qty integer ) ;
+  
+  insert into sandwichorder values('s1',2),('s2',3),('s3',4);
+  insert into sandwichorder values(null,1);
+
+  --1. Display sandwich name and qty ordered
+  
+
+    
+  
+  --2.Display sandwich name which were ordered and not ordered
+  
+
+
+  --3. Display all the  orders with or without sandwich names
+   
+
+
+
+
+
+
+ 
+ Exercises on sandwich TABLE
+ 1. Display the details of sandwiches where price ranges from 20 to 50. 
+2. Display the details of sandwiches of brown bread. 
+3. Display the names of the sandwiches in uppercase. 
+4. Display the names of the sandwiches where the filling contains “veg”. 
+5. Replace the “san” of the sandwich name with “mac” and display. e.g. “san-chicken” 
+		should be displayed as “mac-chicken” using Single row function. 
+6.Display name of sandwiches which have 'i' in their name.(anywhere apart from first and last)
+7. Display current year 
+8.Display following format 
+'firstname' was hired on 'hire_date' with 'job_id' 
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
