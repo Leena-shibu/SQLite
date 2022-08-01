@@ -1,0 +1,9 @@
+SELECT * FROM Pets;
+--Write a query to display all the pets name,along with owners name in Michigan
+--Write a query to display all the owners name along with count of pets 
+--Write a query to display all the pets name,along with owners name in Michigan along with Owners who dont own Pets
+--Find count of all pets and their owners in Southfield city.
+ --Dr Amy is looking for pet Dog.Help her with options  where age is less than or equal to 5
+--Analyze which pet names are most popular irrespective of 'kind'
+--Dr Sheldon is looking to shelter senior Cats.Help him find the senior most cat in each region
+--Find the average age of Dogs gender wise.Exclude the Dogs aged below 5.
