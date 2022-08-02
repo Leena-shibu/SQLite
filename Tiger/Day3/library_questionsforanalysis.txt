@@ -1,0 +1,47 @@
+/******************* In the Library *********************/
+
+/*******************************************************/
+/* 1.find thetotal copies of the book copies of Dracula      */
+/*******************************************************/
+
+
+/*******************************************************/
+/*2. Add 2 new books to the library                        */
+/*******************************************************/
+
+
+
+/********************************************************/
+/* 3.Check books for Due back                             */
+/* generate a report of books due back on July 13, 2020 */
+/* with patron contact information                      */
+/********************************************************/
+
+
+
+
+/*******************************************************/
+/*4. Encourage Patrons to check out books                */
+/* generate a report of showing 10 patrons who have
+checked out the fewest books.                          */
+/*******************************************************/
+
+
+/*******************************************************/
+/*5.Find books to feature for an event                  
+ create a list of books from 1890s that are
+ currently available                                    */
+/*******************************************************/
+
+
+/*******************************************************/
+/*6.Book Statistics 
+/* create a report to show how many books were 
+published each year.                                    */
+/*******************************************************/
+
+/*************************************************************/
+/*7.Book Statistics                                           */
+/* create a report to show 5 most popular Books to check out */
+/*************************************************************/
+
