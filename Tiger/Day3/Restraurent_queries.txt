@@ -1,0 +1,35 @@
+
+/*********************** Time to Celebrate Restaurant Anniversary ***************************************/
+
+/**************************************************************/
+/*1. Create invitations for a party  by displaying FirstName, LastName, Email
+in the order of LastName                            */
+/**************************************************************/
+
+
+
+
+/**************************************************************/
+/* 2.Print a menu							                      */
+/**************************************************************/
+
+/*3.All items sorted by price, low to high*/
+
+/*4.Appetiers and beverages, by type*/
+
+/*5.All items except beverages, by type*/
+
+/**************************************************************/
+/*6.Remove Customer Record   CustomerID = 4                                  */
+/**************************************************************/
+
+/**************************************************************/
+/*7. Look up Reservations for all lastname starting with 'Ste'
+--show the result with lastest reservations                                      */
+/**************************************************************/
+
+
+/**************************************************************/
+/*8.Report of Top 5 Customers   along with FirstName, LastName                               */
+/**************************************************************/
+
