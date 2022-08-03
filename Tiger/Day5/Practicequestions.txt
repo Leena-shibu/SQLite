@@ -1,0 +1,80 @@
+
+CREATE TABLE admin_info (
+  'admin_id' integer NOT NULL,
+  'admin_name' varchar(100) NOT NULL,
+  'admin_email' varchar(300) NOT NULL,
+  'admin_password' varchar(300) NOT NULL
+)
+
+Insert into  admin_info values(1, 'admin', 'admin@gmail.com', '25fgh');
+Insert into  admin_info values(2, 'admin', 'admin@gmail.com', '25fgh');
+Insert into  admin_info values(3, 'steven', 'steven@gmail.com', '26ghj');
+Insert into  admin_info values(4, 'peter', 'peter@gmail.com', '27ghe');
+Insert into  admin_info values(5, 'mark', 'mark@gmail.com', '29efg');
+
+
+Q1.IS there any duplicate name in the table ?
+
+
+Q2.Find out the names which will extract the names starts with'S'?
+
+
+Q3.Find out the names which will extract the names where the pattetn is '_dm'?
+
+
+Q4.Find the length of all values of the column 'admin_password'?
+
+
+
+Q5.Extract the domain name from the emailid from the table 'admin_info'?
+
+
+
+Q6.Extract all the characters from the column 'admin_password'and store it in a column 'charactername' from the table?
+
+
+
+Q7.Insert a column name 'address' in the table 'admin_info'
+
+
+
+
+Q8.Insert a column name 'address' in the table 'admin_info' values such as 'London','USA','kolkata','Spain','uganda'?
+
+
+
+
+
+
+
+CREATE TABLE 'brands' (
+  'brand_id' int NOT NULL,
+  'brand_title' varchar(30) NOT NULL,
+  'admin_id' int,
+   Foreign key('admin_id') references admin_info('admin_id') on delete cascade
+)
+
+INSERT INTO 'brands' ('brand_id', 'brand_title','admin_id') VALUES
+(1, 'HP',1),
+(2, 'Samsung',2),
+(3, 'Apple',3),
+(4, 'motorolla',4),
+(5, 'LG',5);
+
+
+
+Q9. select the 'brand_title' from the table 'brands' wher the last character ends with 'e'?
+
+
+
+Q10. pls find the brand tittle of the admin_id 3?
+
+
+
+Q11. Display the table 'brands' and sort the order in descending according to the 'brand_title';
+
+
+
+
+Q12. Give the email id & admin_name for the respective brand id 4  of the brands table.
+
