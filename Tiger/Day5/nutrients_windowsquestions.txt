@@ -1,0 +1,18 @@
+select * from nutrients;
+--1. Dr Sheldon is very anxious of his food eating habits. Help him by displaying
+ --Food,Calories,rank calories without skipping.
+ 
+--2.Vitamin C is great for skin says reports.Help Karishma with all the
+-- VitaminC food  she can have with ranking without skipping.
+
+--3.Aamir Khan is getting ready for his next movie and wanted to put on some extra kilos for the role.
+--Help him with all the Fat foods and show him the next offset food along with difference
+--of consuming.
+
+--4.Find the top 10 foods strong in Potassium.
+
+--5.Display Food,Calorie and Label 
+if Calories > 100 'Unhealthy'
+between 80 and 100 'Not so healthy'
+between 30 and 80 'Medium'
+else 'Healthy'
