@@ -1,0 +1,26 @@
+--Titanic dataset GROUP BY questions 
+--1 Write a query to display how many male and female passengers were present on cruise
+
+
+
+--2. Write a query to display to display count of passengers in each class on titanic
+
+--3.Display total sum of fare  as totalsum deck number wise  
+
+--4.Display total sum of fare  as totalsum deck number wise  having totalsum greater than 2 Lakh.
+
+--5. Analyze using sql query how many passengers survived and not survived the crash.(survived=1 indicates passengers survived)
+
+
+--6. Write a query to display maximum age survived wise.
+
+--7. Write a query to display minimum age survived wise.
+
+--8.Display the average age class wise from the titanic data
+
+--9.Display count of passengers boarded from each embark_town 
+
+--10.Display all the embark town where more than 10 passenegers boarded the cruise.
+
+
+
